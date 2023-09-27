@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "futura-bold";
+  src: url(../assets/futura-bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "helvetica-now";
+  src: url(../assets/helvetica-now.woff2) format("woff2");
+}
+@font-face {
+  font-family: "abc-mono";
+  src: url(../assets/abc-mono.woff2) format("woff2");
+}
+
+*::selection {
+  background-color: black;
+  color: white;
+}
+
+:root {
+  background-color: #f7f7f7;
+}
+#heroText {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+#card {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.g {
+  background-color: #aab4b823;
+}
+.svg-navbar {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}

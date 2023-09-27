@@ -1,0 +1,29 @@
+{
+  "name": "two-good-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.11",
+    "@mui/material": "^5.14.11",
+    "framer-motion": "^10.16.4",
+    "gsap": "^3.12.2",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "split-type": "^0.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
+  }
+}
