@@ -26,7 +26,7 @@ export default function Home() {
       <section className="w-full mt-[10vh] h-full">
         <Products />
       </section>
-      <section className="w-full mt-[3vh] lg:mt-[10vh] h-full">
+      <section className="w-full  lg:mt-[10vh] h-full">
         <OurImpact />
       </section>
       <section className="w-full mt-[3vh] lg:mt-[10vh] h-full">

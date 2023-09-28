@@ -3,12 +3,12 @@ import React from "react";
 
 const OurImpact = () => {
   return (
-    <div className="flex w-full  max-lg:flex-col-reverse justify-between">
+    <div className="flex w-full   max-lg:flex-col-reverse justify-between">
       <div
         id="card"
         className="lg:w-[32%] w-full opacity-0 overflow-hidden   h-full"
       >
-        <div className="flex flex-col max-w-lg lg:max-w-sm gap-8">
+        <div className="flex flex-col max-lg:pt-6 max-md:text-[3.4vw] text-[2vw] lg:text-[1.05vw] leading-tight max-w-lg lg:max-w-sm gap-8">
           <h3 className="font-[futura-bold] text-[4.5vw] lg:text-[1.5vw] ">
             OUR IMPACT.
           </h3>

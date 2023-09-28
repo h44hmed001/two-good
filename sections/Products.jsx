@@ -13,7 +13,7 @@ const Products = () => {
 
   const cardRef = useRef(null);
   return (
-    <div className="w-full">
+    <div className="w-full flex  ">
       <div className="grid grid-cols-2">
         {featuredProducts.map((product, i) => (
           <ProductCard
